@@ -10,6 +10,7 @@ import org.testng.annotations.BeforeClass;
 import pages.HomePage;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class BaseTests {
 
@@ -21,7 +22,7 @@ public class BaseTests {
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         driver = new ChromeDriver(); //elindituk a bongeszot
         driver.get("https://the-internet.herokuapp.com/");
-
+//        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 //        //megszamolja a linkeket az oldalon es kiirja hogy hanyat talalt(listat terit vissza)
 //        List<WebElement> links = driver.findElements(By.tagName("a"));
 //        System.out.println(links.size());

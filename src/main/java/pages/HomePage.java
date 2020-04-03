@@ -16,6 +16,11 @@ public class HomePage {
         return new LoginPage(driver);
     }
 
+    public ForgotPasswordPage clickFormForgotPassword(){
+        clicklLink("Forgot Password");
+        return new ForgotPasswordPage(driver);
+    }
+
     public DropdownPage clickDropdown(){
         clicklLink("Dropdown");
         return new DropdownPage(driver);
