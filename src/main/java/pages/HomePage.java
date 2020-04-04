@@ -26,6 +26,11 @@ public class HomePage {
         return new DropdownPage(driver);
     }
 
+    public HoversPage clickHovers(){
+        clicklLink("Hovers");
+        return new HoversPage(driver);
+    }
+
     private void clicklLink(String linkText){
         driver.findElement(By.linkText(linkText)).click();
     }
