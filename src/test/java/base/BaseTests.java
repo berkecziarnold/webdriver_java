@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import pages.HomePage;
 
 import java.util.List;
@@ -21,33 +22,23 @@ public class BaseTests {
     public void setUp(){
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         driver = new ChromeDriver(); //elindituk a bongeszot
-        driver.get("https://the-internet.herokuapp.com/");
-//        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
-//        //megszamolja a linkeket az oldalon es kiirja hogy hanyat talalt(listat terit vissza)
-//        List<WebElement> links = driver.findElements(By.tagName("a"));
-//        System.out.println(links.size());
-//
-//        //megkeresi az Inputs linket az oldalon és megnyitja
-//        WebElement inputLinks = driver.findElement(By.linkText("Inputs"));
-//        inputLinks.click();
-//
-//        System.out.println(driver.getTitle()); //kiirjuk az oldal cimet
-
+        goHome();
         homePage = new HomePage(driver);
 
-        // driver.quit(); //bezarjuk az oldalt
     }
 
-//    @AfterClass
-//    public void tearDown(){
-//        driver.quit();
-//    }
+    @BeforeMethod
+    public void goHome(){
+        driver.get("https://the-internet.herokuapp.com/");
+    }
 
-//    public static void main(String args[]){
-//        BaseTests test = new BaseTests();
-//        test.setUp();
-//
-//    }
+
+    @AfterClass
+    public void tearDown(){
+        driver.quit();
+    }
+
+
 
     public void example1(){
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
