@@ -38,10 +38,10 @@ public class BaseTests {
         // driver.quit(); //bezarjuk az oldalt
     }
 
-    @AfterClass
-    public void tearDown(){
-        driver.quit();
-    }
+//    @AfterClass
+//    public void tearDown(){
+//        driver.quit();
+//    }
 
 //    public static void main(String args[]){
 //        BaseTests test = new BaseTests();
