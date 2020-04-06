@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fa74a9f-b1b5-4080-bdd6-2aeae79cf04a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FileUploadPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/alerts/FileUploadTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ContextMenuPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/alerts/ContextTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +47,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/resources" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Arni\IdeaProjects\webdriver_java\.idea\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Arni\IdeaProjects\webdriver_java\src\main\java\pages" />
       <recent name="C:\Users\Arni\IdeaProjects\webdriver_java\src\test\java" />
@@ -53,11 +57,8 @@
       <recent name="C:\Users\Arni\IdeaProjects\webdriver_java\.idea\resources" />
       <recent name="C:\Users\Arni\IdeaProjects\webdriver_java\src\test\java\login" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Arni\IdeaProjects\webdriver_java\.idea\resources" />
-    </key>
   </component>
-  <component name="RunManager" selected="TestNG.FileUploadTests.testFileUpload">
+  <component name="RunManager" selected="TestNG.ContextTests.testContext">
     <configuration name="AlertTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webdriver_java" />
       <extension name="coverage">
@@ -69,24 +70,6 @@
       <option name="PACKAGE_NAME" value="alerts" />
       <option name="MAIN_CLASS_NAME" value="alerts.AlertTests" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlertTests.testAcceptAlert" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="webdriver_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.AlertTests" />
-      <option name="METHOD_NAME" value="testAcceptAlert" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -129,6 +112,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ContextTests.testContext" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webdriver_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alerts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.ContextTests" />
+      <option name="METHOD_NAME" value="testContext" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FileUploadTests.testFileUpload" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webdriver_java" />
       <extension name="coverage">
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContextTests.testContext" />
         <item itemvalue="TestNG.FileUploadTests.testFileUpload" />
         <item itemvalue="TestNG.AlertTests" />
         <item itemvalue="TestNG.AlertTests.testSetInputInAlert" />
         <item itemvalue="TestNG.AlertTests.testGetTextFormAlert" />
-        <item itemvalue="TestNG.AlertTests.testAcceptAlert" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586099325380</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="I made FileUploadTests.">
+      <created>1586106439611</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586106439611</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -228,41 +236,43 @@
     <MESSAGE value="I made a HoverTests" />
     <MESSAGE value="I made a KeysTest an optional exercise Horizontal Slider test" />
     <MESSAGE value="I made some alerts test." />
-    <option name="LAST_COMMIT_MESSAGE" value="I made some alerts test." />
+    <MESSAGE value="I made FileUploadTests." />
+    <option name="LAST_COMMIT_MESSAGE" value="I made FileUploadTests." />
   </component>
   <component name="WindowStateProjectService">
     <state x="507" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585855896607">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="507" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1585855896607" />
-    <state x="419" y="7" key="CommitChangelistDialog2" timestamp="1586099324413">
+    <state x="419" y="7" key="CommitChangelistDialog2" timestamp="1586106438569">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="419" y="7" key="CommitChangelistDialog2/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586099324413" />
+    <state x="419" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586106438569" />
     <state x="634" y="306" width="479" height="212" key="Github.ShareDialog" timestamp="1585913020563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="634" y="306" width="479" height="212" key="Github.ShareDialog/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1585913020563" />
-    <state width="1537" height="210" key="GridCell.Tab.0.bottom" timestamp="1586106406172">
+    <state width="1537" height="210" key="GridCell.Tab.0.bottom" timestamp="1586163975650">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="269" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586099508138" />
-    <state width="1537" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586106406172" />
-    <state width="1537" height="210" key="GridCell.Tab.0.center" timestamp="1586106406171">
+    <state width="1537" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586163975650" />
+    <state width="1537" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586106467336" />
+    <state width="1537" height="210" key="GridCell.Tab.0.center" timestamp="1586163975649">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="269" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586099508138" />
-    <state width="1537" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586106406171" />
-    <state width="1537" height="210" key="GridCell.Tab.0.left" timestamp="1586106406171">
+    <state width="1537" height="210" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586163975649" />
+    <state width="1537" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586106467335" />
+    <state width="1537" height="210" key="GridCell.Tab.0.left" timestamp="1586163975649">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="269" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586099508138" />
-    <state width="1537" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586106406171" />
-    <state width="1537" height="210" key="GridCell.Tab.0.right" timestamp="1586106406171">
+    <state width="1537" height="210" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586163975649" />
+    <state width="1537" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586106467335" />
+    <state width="1537" height="210" key="GridCell.Tab.0.right" timestamp="1586163975650">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="269" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586099508138" />
-    <state width="1537" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586106406171" />
+    <state width="1537" height="210" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586163975650" />
+    <state width="1537" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586106467336" />
     <state width="1537" height="269" key="GridCell.Tab.1.bottom" timestamp="1586099508139">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -283,14 +293,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="536" y="123" key="RollbackChangesDialog/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1585918758749" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1586099353788">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1586106446867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586099353788" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586104454783">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586106446867" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586160702603">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586104454783" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586160702603" />
     <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586010683975">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
