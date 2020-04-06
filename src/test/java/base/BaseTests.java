@@ -21,22 +21,21 @@ public class BaseTests {
     @BeforeClass
     public void setUp(){
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
-        driver = new ChromeDriver(); //elindituk a bongeszot
+        driver = new ChromeDriver();
+        //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         goHome();
-        homePage = new HomePage(driver);
-
     }
 
     @BeforeMethod
     public void goHome(){
         driver.get("https://the-internet.herokuapp.com/");
+        homePage = new HomePage(driver);
     }
 
-
-//    @AfterClass
-//    public void tearDown(){
-//        driver.quit();
-//    }
+    @AfterClass
+    public void tearDown(){
+        driver.quit();
+    }
 
 
 
