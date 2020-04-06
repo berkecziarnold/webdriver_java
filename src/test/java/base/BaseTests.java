@@ -33,10 +33,10 @@ public class BaseTests {
     }
 
 
-    @AfterClass
-    public void tearDown(){
-        driver.quit();
-    }
+//    @AfterClass
+//    public void tearDown(){
+//        driver.quit();
+//    }
 
 
 
