@@ -22,15 +22,12 @@ public class DropdownPage {
     }
 
     public List<String> getSelectedOptions(){
-        List<WebElement> seWebElements =
-                findDropDownElement().getAllSelectedOptions();
-        return seWebElements.stream().map(e->e.getText()).collect(Collectors.toList());
-
+        List<WebElement> selectedElements = findDropDownElement().getAllSelectedOptions();
+        return selectedElements.stream().map(e->e.getText()).collect(Collectors.toList());
     }
+
 
     private Select findDropDownElement(){
         return new Select(driver.findElement(dropdown));
     }
-
-
 }
