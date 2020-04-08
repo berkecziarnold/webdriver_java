@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fa74a9f-b1b5-4080-bdd6-2aeae79cf04a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/MultipleWindowsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/WindowManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/navigation/NavigationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/screenshots/testBackspace.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/DropdownPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/DropdownPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/keys/KeysTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/keys/KeysTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +58,7 @@
       <recent name="C:\Users\Arni\IdeaProjects\webdriver_java\src\test\java\login" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.NavigationTests.testWindowTabs">
+  <component name="RunManager" selected="TestNG.KeysTests.testBackspace">
     <configuration name="JavaScriptTests.testScrollTable" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webdriver_java" />
       <extension name="coverage">
@@ -75,6 +70,24 @@
       <option name="PACKAGE_NAME" value="javascript" />
       <option name="MAIN_CLASS_NAME" value="javascript.JavaScriptTests" />
       <option name="METHOD_NAME" value="testScrollTable" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeysTests.testBackspace" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webdriver_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="keys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="keys" />
+      <option name="MAIN_CLASS_NAME" value="keys.KeysTests" />
+      <option name="METHOD_NAME" value="testBackspace" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -136,31 +149,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitTests.testWaitUntilHidden2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="webdriver_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wait.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="wait" />
-      <option name="MAIN_CLASS_NAME" value="wait.WaitTests" />
-      <option name="METHOD_NAME" value="testWaitUntilHidden2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.KeysTests.testBackspace" />
         <item itemvalue="TestNG.NavigationTests.testWindowTabs" />
         <item itemvalue="TestNG.NavigationTests.testSwitchTab" />
         <item itemvalue="TestNG.NavigationTests.testNavigator" />
         <item itemvalue="TestNG.JavaScriptTests.testScrollTable" />
-        <item itemvalue="TestNG.WaitTests.testWaitUntilHidden2" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586344525036</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="I made NavigationTests, and optional exercise(chapter 11)">
+      <created>1586351848032</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1586351848032</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -275,45 +277,46 @@
     <MESSAGE value="Optional, and Course Exercise FrameTests" />
     <MESSAGE value="Optional, and Course Exercise WaitTests" />
     <MESSAGE value="I made JavaScriptTests" />
-    <option name="LAST_COMMIT_MESSAGE" value="I made JavaScriptTests" />
+    <MESSAGE value="I made NavigationTests, and optional exercise(chapter 11)" />
+    <option name="LAST_COMMIT_MESSAGE" value="I made NavigationTests, and optional exercise(chapter 11)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="507" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585855896607">
+    <state x="507" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586357970274">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="507" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1585855896607" />
-    <state x="456" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586187273505">
+    <state x="507" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586357970274" />
+    <state x="456" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586356728199">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="456" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586187273505" />
-    <state x="419" y="7" key="CommitChangelistDialog2" timestamp="1586344523910">
+    <state x="456" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586356728199" />
+    <state x="419" y="7" key="CommitChangelistDialog2" timestamp="1586351847088">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="419" y="7" key="CommitChangelistDialog2/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586344523910" />
+    <state x="419" y="7" key="CommitChangelistDialog2/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586351847088" />
     <state x="419" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586106438569" />
     <state x="634" y="306" width="479" height="212" key="Github.ShareDialog" timestamp="1585913020563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="634" y="306" width="479" height="212" key="Github.ShareDialog/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1585913020563" />
-    <state width="1537" height="202" key="GridCell.Tab.0.bottom" timestamp="1586351776401">
+    <state width="1493" height="202" key="GridCell.Tab.0.bottom" timestamp="1586358044072">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586351776401" />
+    <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586358044072" />
     <state width="1537" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586106467336" />
-    <state width="1537" height="202" key="GridCell.Tab.0.center" timestamp="1586351776401">
+    <state width="1493" height="202" key="GridCell.Tab.0.center" timestamp="1586358044072">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="202" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586351776401" />
+    <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586358044072" />
     <state width="1537" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586106467335" />
-    <state width="1537" height="202" key="GridCell.Tab.0.left" timestamp="1586351776400">
+    <state width="1493" height="202" key="GridCell.Tab.0.left" timestamp="1586358044072">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="202" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586351776400" />
+    <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586358044072" />
     <state width="1537" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586106467335" />
-    <state width="1537" height="202" key="GridCell.Tab.0.right" timestamp="1586351776401">
+    <state width="1493" height="202" key="GridCell.Tab.0.right" timestamp="1586358044072">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="202" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586351776401" />
+    <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586358044072" />
     <state width="1537" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586106467336" />
     <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1586349664205">
       <screen x="0" y="0" width="1536" height="824" />
@@ -335,10 +338,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="536" y="123" key="RollbackChangesDialog/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1585918758749" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1586344530174">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1586351855853">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586344530174" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586351855853" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586106446867" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586334696879">
       <screen x="0" y="0" width="1536" height="824" />
@@ -348,6 +351,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586010683975" />
+    <state x="499" y="168" key="extract.method.dialog" timestamp="1586357542225">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="168" key="extract.method.dialog/0.0.1536.824/-1920.-298.1920.1040@0.0.1536.824" timestamp="1586357542225" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1585918666172">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
