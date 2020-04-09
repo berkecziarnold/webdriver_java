@@ -3,6 +3,7 @@ package base;
 import com.google.common.io.Files;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.ITest;
 import org.testng.ITestResult;
@@ -31,6 +32,7 @@ public class BaseTests {
         ((EventFiringWebDriver) driver).register(new EventReporter());
         //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         goHome();
+        setCookie();
     }
 
     @BeforeMethod
@@ -64,6 +66,17 @@ public class BaseTests {
         return new WindowManager(driver);
     }
 
+//    private ChromeOptions getChromeOptions(){
+//        ChromeOptions options = new ChromeOptions();
+//        options.addArguments("disable-infobars");
+//        options.setHeadless(true);
+//        return options;
+//    }
+
+    private void setCookie(){
+        Cookie cookie = new Cookie.Builder("tau", "123").domain("the-internet.herokuapp.com").build();
+        driver.manage().addCookie(cookie);
+    }
 
 
     public void example1(){
